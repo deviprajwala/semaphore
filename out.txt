@@ -1,0 +1,21 @@
+There are two processes, enter the process to be executed:1 or 2
+In order to view the operation of semaphore enter the other process
+
+The first process entered is:1
+The second process entered is:2
+process 2 is added to list of semaphores and blocked
+
+Process 2 waits until process 1 completes its execution
+
+-------------------------------------------
+process 1 is executing.......
+
+-------------------------------------------
+Execution of process 1 is completed 
+process 2 is removed from the list of semaphores and waked
+
+-------------------------------------------
+process 2 is executing.......
+
+-------------------------------------------
+Enter 1 to continue:
