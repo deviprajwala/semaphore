@@ -61,7 +61,7 @@ int main()
   scanf("%d",&q);
   printf("\nThe first process entered is:%d\nThe second process entered is:%d\n",p,q);
   in=wait(s,q);
-  printf("Process %d waits until process %d completes its execution\n",q,p);
+  printf("\nProcess %d waits until process %d completes its execution\n",q,p);
   printf("\n-------------------------------------------\n");
   printf("process %d is executing.......\n",p);
   printf("\n-------------------------------------------\n");

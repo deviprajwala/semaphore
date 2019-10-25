@@ -29,7 +29,7 @@ int wait(semaphore s,int p)
   if(s->value<0)
   {
     s->q[in]=p;
-    printf("process %d is added to list of semaphores and blocked\n",p); 
+    printf("\nprocess %d is added to list of semaphores and blocked\n",p); 
   }
  return in;
 }
@@ -61,7 +61,7 @@ int main()
   scanf("%d",&q);
   printf("\nThe first process entered is:%d\nThe second process entered is:%d\n",p,q);
   in=wait(s,q);
-  printf("\nProcess %d waits until process %d completes its execution\n",q,p);
+  printf("Process %d waits until process %d completes its execution\n",q,p);
   printf("\n-------------------------------------------\n");
   printf("process %d is executing.......\n",p);
   printf("\n-------------------------------------------\n");

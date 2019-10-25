@@ -3,8 +3,8 @@ In order to view the operation of semaphore enter the other process
 
 The first process entered is:1
 The second process entered is:2
-process 2 is added to list of semaphores and blocked
 
+process 2 is added to list of semaphores and blocked
 Process 2 waits until process 1 completes its execution
 
 -------------------------------------------
